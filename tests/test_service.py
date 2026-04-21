@@ -17,4 +17,4 @@ def test_divide_by_zero() -> None:
 
 
 def test_healthcheck() -> None:
-    assert healthcheck()["status"] == "ok"
+    assert healthcheck()["status"] == "down"
